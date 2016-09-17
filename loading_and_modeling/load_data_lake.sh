@@ -1,10 +1,24 @@
 #!/bin/bash
 
-#########################
+#
+# get the url and unzip it (just unzipping the files needed)
+#
+
+rm *.csv
+
+wget http://medicare.gov/download/HospitalCompare/2015/July/HOSArchive_Revised_FlatFiles_20150716.zip
+
+unzip HOSArchive_Revised_FlatFiles_20150716.zip \
+ 'Hospital General Information.csv' \
+ 'Timely and Effective Care - Hospital.csv' \
+ 'Readmissions and Deaths - Hospital.csv' \
+ 'Measure Dates.csv \
+ 'hvbp_hcahps_05)28_2015.csv
+
+
 #
 # rename and remove header lines
 #
-#########################
 
 # No loop here, for only 5 files will do it hamfistedly
 
@@ -12,7 +26,7 @@ tail -n +2 'Hospital General Information.csv' > hospitals.csv
 tail -n +2 'Timely and Effective Care - Hospital.csv' > effective_care.csv
 tail -n +2 'Readmissions and Deaths - Hospital.csv' > readmissions.csv
 tail -n +2 'Measure Dates.csv' > Measures.csv
-tail -n +2 'hvbp_hcahps_06_08_2016.csv' > surveys_responses.csv
+tail -n +2 'hvbp_hcahps_05_28_2015.csv' > surveys_responses.csv
 
 # Drop the renamed (and header trimmed) files into hdfs
 
