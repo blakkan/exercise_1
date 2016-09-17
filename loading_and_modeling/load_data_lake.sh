@@ -31,9 +31,9 @@ tail -n +2 'hvbp_hcahps_05_28_2015.csv' > surveys_responses.csv
 
 # Drop the renamed (and header trimmed) files into hdfs
 
-#hdfs dfs -put hospitals.csv /user/w205/hospital_compare
-#hdfs dfs -put effective_care.csv /user/w205/hospital_compare
-#hdfs dfs -put readmissions.csv /user/w205/hospital_compare
-#hdfs dfs -put Measures.csv /user/w205/hospital_compare
-#hdfs dfs -put survey_responses.csv /user/w205/hospital_compare
+hdfs dfs -put hospitals.csv /user/w205
+hdfs dfs -put effective_care.csv /user/w205
+hdfs dfs -put readmissions.csv /user/w205
+hdfs dfs -put Measures.csv /user/w205
+hdfs dfs -put surveys_responses.csv /user/w205
 
