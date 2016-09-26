@@ -1,5 +1,5 @@
 --
--- hospitals table
+-- hospitals  table
 --
 DROP TABLE hospitals;
 CREATE EXTERNAL TABLE hospitals (
