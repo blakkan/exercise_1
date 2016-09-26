@@ -50,7 +50,7 @@ hdfs dfs -put Measures.csv /user/w205/hospital_compare/Measures
 hdfs dfs -mkdir /user/w205/hospital_compare/surveys_responses
 hdfs dfs -put surveys_responses.csv /user/w205/hospital_compare/surveys_responses
 
-# cleanup csv and zip files here; just want the files in distributed file sysstem
+# cleanup csv and files here; just want the files in distributed file sysstem
 
 rm *.csv 
 
