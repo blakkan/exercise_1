@@ -34,7 +34,7 @@ WITH SERDEPROPERTIES(
 	"quoteChar" = '"',
 	"escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/hospitals';
 
 DROP TABLE effective_care;
 CREATE EXTERNAL TABLE effective_care (
@@ -60,6 +60,6 @@ WITH SERDEPROPERTIES(
 	"quoteChar" = '"',
 	"escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/effective_care';
 
 
