@@ -13,24 +13,7 @@ CREATE EXTERNAL TABLE hospitals (
 	phone_number STRING,
 	hospital_type STRING,
 	hospital_ownership STRING,
-	emergency_services STRING,
-	meets_criteria_for_meaningful_use_of_ehrs STRING,
-	hospital_overall_rating STRING,   --There could be some NAs
-	hospital_overall_rating_footnote STRING,
-	mortality_national_comparison STRING,
-	mortality_national_comparison_footnote STRING,
-	safety_of_care_national_comparison STRING,
-	safety_of_care_national_comparision_footnote STRING,
-	readmission_national_comparision STRING,
-	readmission_national_comparision_footnote STRING,
-	patient_experience_national_comparision STRING,
-	patient_experience_national_comparision_footnote STRING,
-	effectiveness_of_care_national_comparision STRING,
-	effectiveness_of_care_national_comparision_footnote STRING,
-	timeliness_of_care_national_comparision STRING,
-	timeliness_of_care_national_comparision_footnote STRING,
-	efficient_use_of_medical_imaging_national_comparision STRING,
-	efficient_use_of_medical_imaging_national_comparison_footnote STRING )
+	emergency_services STRING )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
 	"separatorChar" = ",",

@@ -7,11 +7,11 @@
 # get the url and unzip it (just unzipping the files needed)
 #
 
-rm *.csv *.zip
+rm *.csv
 
-wget http://medicare.gov/download/HospitalCompare/2015/July/HOSArchive_Revised_FlatFiles_20150716.zip
+### don't do the wget anymore, just leave in repo wget http://medicare.gov/download/HospitalCompare/2015/July/HOSArchive_Revised_FlatFiles_20150716.zip
 
-unzip HOSArchive_Revised_FlatFiles_20150716.zip \
+unzip Hospital_Revised_Flatfiles.zip \
  'Hospital General Information.csv' \
  'Timely and Effective Care - Hospital.csv' \
  'Readmissions and Deaths - Hospital.csv' \
@@ -52,7 +52,7 @@ hdfs dfs -put surveys_responses.csv /user/w205/hospital_compare/surveys_response
 
 # cleanup csv and zip files here; just want the files in distributed file sysstem
 
-rm *.csv *.zip
+rm *.csv 
 
 # at this point, we have the five csv files in the distributed file system.
 # we haven't yet put any database ddl or access capability around them, just
