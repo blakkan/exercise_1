@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Note: remove /user/w205/hospital_compare before running this;
+# Note:   remove /user/w205/hospital_compare before running this;
 # remove (hdfs dfs -rmr is not included here to avoid inadvertent
 # deletions)
 #
