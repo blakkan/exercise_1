@@ -4,7 +4,7 @@
 --   This file is for reference only; it was run on postgres to verify aggregate functions.
 -- It will be used as a guide for the hive/sql (or spark) transforms and queries.
 --
---
+-- 
 
 drop table hospital;
 drop table procedure;
