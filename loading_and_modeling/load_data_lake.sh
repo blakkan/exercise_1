@@ -45,20 +45,27 @@ hdfs dfs -rm -r /user/w205/hospital_compare  # out with the old
 
 hdfs dfs -mkdir /user/w205/hospital_compare
 
+echo "***** Transferring into HDFS. This takes a few minutes on an aws M3 Medium"
+
 hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
 hdfs dfs -put hospitals.csv /user/w205/hospital_compare/hospitals
+echo "*****     Completed 1 of 5"
 
 hdfs dfs -mkdir /user/w205/hospital_compare/effective_care
 hdfs dfs -put effective_care.csv /user/w205/hospital_compare/effective_care
+echo "*****     Completed 2 of 5"
 
 hdfs dfs -mkdir /user/w205/hospital_compare/readmissions
 hdfs dfs -put readmissions.csv /user/w205/hospital_compare/readmissions
+echo "*****     Completed 3 of 5"
 
 hdfs dfs -mkdir /user/w205/hospital_compare/Measures
 hdfs dfs -put Measures.csv /user/w205/hospital_compare/Measures
+echo "*****     Completed 4 of 5"
 
 hdfs dfs -mkdir /user/w205/hospital_compare/surveys_responses
 hdfs dfs -put surveys_responses.csv /user/w205/hospital_compare/surveys_responses
+echo "*****     Completed 5 of 5"
 
 echo "*****completed purging old hdfs files an adding new ones"
 
