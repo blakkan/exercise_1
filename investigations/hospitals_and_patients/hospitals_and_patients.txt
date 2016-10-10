@@ -1,0 +1,23 @@
+Here are the correlations of Hospital Average Scores with survey responses
+and SD of scores with survey responses.
+
+Note that survey responses are calculated from the HCAPS data base score
+(a 0-80 score) plus the consistency score (a 0-20 score) giving a total
+maximum survey score (this is per the description of the data on the
+medicare site.)
+
+Correlation coefficeint of average score to survey total score:
+-0.06569066638536455
+
+This is so small as to have no practical significance.
+
+Correlation coefficient of sd of scores to survey total score:
+0.12463353598719493
+
+This is also a small effect, and in an unexpected direction- high
+variation leads to higher satisfaction.   Further investigation is needed,
+perhaps the high-variation is because the most important results (with
+respect to patient satisfaction) are extremely high in good hospitals.
+
+But the general conclusion is that there is little practical correlation
+between test metrics and test variation metrics and survey responses.

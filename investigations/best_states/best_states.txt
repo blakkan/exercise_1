@@ -1,0 +1,27 @@
+These are the 10 best "states" (Two actually commonwealths or terratories), as
+measured by average procedure score.
+
+As in part 1, Emergency Department scores are not included (for the same
+reasons), nor are any scores
+from any hospital reporting fewer than 16 procedure scores (because of
+general doubt about such hospitals' accuracy in reporting)
+More details in the report.md file in the repo.
+
+Table shows the state, state score average, and number of hospitals included
+for that state.
+
+The high ratings for Puerto Rico and US Virgin Islands bears further
+investigation.  It is possible that the facilities on these islands are
+under greater federal oversight than 50-state hospitals, and thus have better
+(or inflated) scoring.  Also note these particular regions have few hospitals.
+
+PR	88.53744125366211	4
+VI	87.19643020629883	2
+DE	86.3330192565918	6
+NH	85.88411610921224	15
+MD	85.57996563578762	43
+FL	85.57037488425651	164
+VA	85.31417647652005	69
+NE	85.09229133242653	21
+HI	85.04736773173015	12
+NJ	84.99620938301086	64

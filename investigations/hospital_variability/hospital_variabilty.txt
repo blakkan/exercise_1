@@ -1,0 +1,17 @@
+Here are the procedure scores's Coefficient of Variance (in decrasing order),
+sd's, average and score count.
+
+Because the mean scores are quite different, Coefficient of Variance is probably
+the better metric.  More details in the report.md file in the repo.
+
+
+1.6439912490357727	6.958258	4.2325397	4656	Elective Delivery
+1.2702269536856778	8.062464	6.3472624	4656	Hospital Acquired Potentially-Preventable Venous Thromboembolism
+1.0100174687080352	1.7166517	1.6996257	4111	Patient left without being seen
+0.7331537686831926	6.1093817	8.333015	4111	Median Time to ECG
+0.631014380901646	62.16665	98.51859	4656	Admit Decision Time to ED Departure Time for Admitted Patients
+0.6011700971490216	16.882053	28.081991	4111	Median Time from ED Arrival to Provider Contact for ED patients
+0.4852905898885754	29.479326	60.74572	4111	Median Time to Transfer to Another Facility for Acute Coronary Intervention- Reporting Rate
+0.37558841705322266	18.77942	50.0	4785	Fibrinolytic Therapy Received within 30 Minutes of Hospital Arrival
+0.3417872507195493	92.83179	271.60693	4656	Median Time from ED Arrival to ED Departure for Admitted ED Patients
+0.3274410531826787	21.844654	66.71324	4111	Head CT Scan Results for Acute Ischemic Stroke or Hemorrhagic Stroke Patients who Received Head CT or MRI Scan Interpretation Within 45 Minutes of ED Arrival

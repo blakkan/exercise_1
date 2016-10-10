@@ -1,0 +1,22 @@
+These are the hospitals with the highest mean procedure scores.
+(hospital name, mean score, sd of scores, and number of scores)
+
+Note that any hospital with fewer than 16 procedure scores has been
+omitted from this list.  Emergency Department (including OP_18b is
+omitted from this list, as it uses a different scale, and ER metrics
+such as wait time were not judged to be critical to general care.)
+More details in the report.md file in the repo.
+
+Note that many of these top hospitals are scored so close together
+that there may not be a practical distinction between them.
+
+BAYLOR HEART AND VASCULAR HOSPITAL	99.85	0.4769696	20
+DEBORAH HEART AND LUNG CENTER	99.2381	1.570707	21
+TEMPLE COMMUNITY HOSPITAL	98.75	4.841229	16
+KAISER FOUNDATION HOSPITAL - SOUTH SAN FRANCISCO	98.55556	2.6434171	27
+FRANCISCAN HEALTHCARE - MUNSTER	98.541664	3.4275742	24
+THE HEART HOSPITAL AT DEACONESS GATEWAY LLC	97.411766	4.4860415	17
+MERCY MEMORIAL HOSPITAL	97.0625	4.5616436	16
+KANSAS HEART HOSPITAL	96.65	4.541751	20
+TEXAS HEALTH HEART & VASCULAR HOSPITAL ARLINGTON	96.55556	11.358904	18
+SHANDS STARKE REGIONAL MEDICAL CENTER	96.29412	7.290322	17

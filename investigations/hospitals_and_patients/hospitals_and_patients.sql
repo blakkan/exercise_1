@@ -5,4 +5,3 @@
 
 SELECT corr(average_of_scores, total_survey_results) from correlation_table;
 SELECT corr(sd_of_scores, total_survey_results) from correlation_table;
-SELECT corr(sd_of_scores, total_survey_results) from correlation_table;
