@@ -2,7 +2,7 @@
 -- will use this table later, so keep a copy
 DROP TABLE hospital_score;
 
-CREATE TABLE hospital_score (hid int, average_of_scores float, sd_of_scores float, number_of_scores int);
+CREATE TABLE hospital_score (hid INT, average_of_scores FLOAT, sd_of_scores FLOAT, number_of_scores INT);
 
 INSERT INTO hospital_score
 SELECT t.hid, t.average_of_scores, t.sd_of_scores, t.number_of_scores FROM (
