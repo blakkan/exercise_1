@@ -1,6 +1,8 @@
 Exercise 1    W205     Fall 2016    John Blakkan
 
 
+
+
 # General notes on approach
 
 I chose to use hive, rather than Spark, for this exercise.  Spark would likely
